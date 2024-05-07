@@ -15,7 +15,7 @@ public class UserDataService {
     }
 
     public void saveUserData(String name, String email, String date, String option) {
-        String sql = "INSERT INTO user_data (name, email, date, option) VALUES (?, ?, ?, ?)";
+        String sql = "INSERT INTO user (name, email, date, `option`) VALUES (?, ?, ?, ?)";
         jdbcTemplate.update(sql, name, email, date, option);
     }
 }

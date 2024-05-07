@@ -5,8 +5,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import java.util.Date;
-
 @Entity
 public class UserData {
 
@@ -15,7 +13,7 @@ public class UserData {
     private Long id;
     private String name;
     private String email;
-    private Date date;
+    private String date; // Cambiado a String
     private String option;
 
     // Getters y Setters
@@ -41,10 +39,10 @@ public class UserData {
         this.email = email;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 

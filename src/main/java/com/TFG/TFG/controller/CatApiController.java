@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.TFG.TFG.services.CatApiService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "http://localhost:3000")
 public class CatApiController {
 
     private final CatApiService catApiService;

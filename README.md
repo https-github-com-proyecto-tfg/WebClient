@@ -82,7 +82,7 @@ La aplicación estará disponible en [http://localhost:8080](http://localhost:80
 
 ## Enlace a la Documentación
 
-[Documentación del Proyecto](CatApi.docx)
+[Documentación del Proyecto](CatApi.pdf)
 
 ## Enlace a Figma de la Interfaz
 
